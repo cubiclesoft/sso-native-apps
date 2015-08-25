@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">SSO Client</string>
+	<string name="sso_api_call_in_progress">An API call is still in progress.  Try again in a few moments.</string>
+	<string name="sso_api_call_init_error_toast">An error occurred while initializing the API call to the server.  %1$s</string>
+	<string name="sso_api_no_login_title">Not signed in</string>
+	<string name="sso_api_no_login_message">This action requires an active login session but you are not signed in.  Would you like to sign in?</string>
+	<string name="sso_api_no_login_yes">Yes</string>
+	<string name="sso_api_no_login_no">No</string>
+	<string name="sso_api_server_error_message_toast">Server responded with the error:  %1$s (%2$s)</string>
+	<string name="sso_api_malformed_json_error_toast">An exception was caught while processing the response from the server.  Probably malformed JSON.</string>
+	<string name="sso_api_read_error_toast">An error occurred while attempting to read the response from the server.  %1$s</string>
+
+</resources>

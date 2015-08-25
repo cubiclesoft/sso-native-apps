@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		834D3B0D1794C6D10053026A /* SSOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 834D3B0C1794C6D10053026A /* SSOViewController.m */; };
+		83516D9C179E716700CD9F2D /* SSOAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 83516D9B179E716700CD9F2D /* SSOAPI.m */; };
+		83564F761780C87700906CD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83564F751780C87700906CD6 /* UIKit.framework */; };
+		83564F781780C87700906CD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83564F771780C87700906CD6 /* Foundation.framework */; };
+		83564F7A1780C87700906CD6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83564F791780C87700906CD6 /* CoreGraphics.framework */; };
+		83564F801780C87700906CD6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83564F7E1780C87700906CD6 /* InfoPlist.strings */; };
+		83564F821780C87700906CD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83564F811780C87700906CD6 /* main.m */; };
+		83564F861780C87700906CD6 /* SSOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83564F851780C87700906CD6 /* SSOAppDelegate.m */; };
+		83564F881780C87700906CD6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 83564F871780C87700906CD6 /* Default.png */; };
+		83564F8A1780C87700906CD6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83564F891780C87700906CD6 /* Default@2x.png */; };
+		83564F8C1780C87700906CD6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83564F8B1780C87700906CD6 /* Default-568h@2x.png */; };
+		835766701797201A0008A8D3 /* SSOWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8357666E1797201A0008A8D3 /* SSOWebViewController.m */; };
+		835766711797201A0008A8D3 /* SSOWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8357666F1797201A0008A8D3 /* SSOWebViewController.xib */; };
+		836273091799255C00CC736B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 836273071799255C00CC736B /* Localizable.strings */; };
+		839F8129179332F000247C36 /* SSOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 839F8128179332F000247C36 /* SSOViewController.xib */; };
+		83AD54FD178B20FA00EF263F /* SSOParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AD54FC178B20FA00EF263F /* SSOParser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		833F354B178E766000BE60CE /* SSOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSOViewController.h; sourceTree = "<group>"; };
+		834D3B0C1794C6D10053026A /* SSOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSOViewController.m; sourceTree = "<group>"; };
+		83516D9A179E716700CD9F2D /* SSOAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSOAPI.h; sourceTree = "<group>"; };
+		83516D9B179E716700CD9F2D /* SSOAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSOAPI.m; sourceTree = "<group>"; };
+		83564F721780C87700906CD6 /* sso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sso.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83564F751780C87700906CD6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		83564F771780C87700906CD6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		83564F791780C87700906CD6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		83564F7D1780C87700906CD6 /* sso-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sso-Info.plist"; sourceTree = "<group>"; };
+		83564F7F1780C87700906CD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83564F811780C87700906CD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83564F831780C87700906CD6 /* sso-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sso-Prefix.pch"; sourceTree = "<group>"; };
+		83564F841780C87700906CD6 /* SSOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSOAppDelegate.h; sourceTree = "<group>"; };
+		83564F851780C87700906CD6 /* SSOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSOAppDelegate.m; sourceTree = "<group>"; };
+		83564F871780C87700906CD6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		83564F891780C87700906CD6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		83564F8B1780C87700906CD6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8357666D1797201A0008A8D3 /* SSOWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSOWebViewController.h; sourceTree = "<group>"; };
+		8357666E1797201A0008A8D3 /* SSOWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSOWebViewController.m; sourceTree = "<group>"; };
+		8357666F1797201A0008A8D3 /* SSOWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSOWebViewController.xib; sourceTree = "<group>"; };
+		836273081799255C00CC736B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		839F8128179332F000247C36 /* SSOViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSOViewController.xib; sourceTree = "<group>"; };
+		83AD54FB178B20FA00EF263F /* SSOParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSOParser.h; sourceTree = "<group>"; };
+		83AD54FC178B20FA00EF263F /* SSOParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSOParser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83564F6F1780C87700906CD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83564F761780C87700906CD6 /* UIKit.framework in Frameworks */,
+				83564F781780C87700906CD6 /* Foundation.framework in Frameworks */,
+				83564F7A1780C87700906CD6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83564F691780C87700906CD6 = {
+			isa = PBXGroup;
+			children = (
+				83564F7B1780C87700906CD6 /* sso */,
+				83564F741780C87700906CD6 /* Frameworks */,
+				83564F731780C87700906CD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83564F731780C87700906CD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83564F721780C87700906CD6 /* sso.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83564F741780C87700906CD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83564F751780C87700906CD6 /* UIKit.framework */,
+				83564F771780C87700906CD6 /* Foundation.framework */,
+				83564F791780C87700906CD6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83564F7B1780C87700906CD6 /* sso */ = {
+			isa = PBXGroup;
+			children = (
+				83564F841780C87700906CD6 /* SSOAppDelegate.h */,
+				83564F851780C87700906CD6 /* SSOAppDelegate.m */,
+				833F354B178E766000BE60CE /* SSOViewController.h */,
+				834D3B0C1794C6D10053026A /* SSOViewController.m */,
+				839F8128179332F000247C36 /* SSOViewController.xib */,
+				83516D9A179E716700CD9F2D /* SSOAPI.h */,
+				83516D9B179E716700CD9F2D /* SSOAPI.m */,
+				8357666D1797201A0008A8D3 /* SSOWebViewController.h */,
+				8357666E1797201A0008A8D3 /* SSOWebViewController.m */,
+				8357666F1797201A0008A8D3 /* SSOWebViewController.xib */,
+				83564F7C1780C87700906CD6 /* Supporting Files */,
+				83AD54FB178B20FA00EF263F /* SSOParser.h */,
+				83AD54FC178B20FA00EF263F /* SSOParser.m */,
+			);
+			path = sso;
+			sourceTree = "<group>";
+		};
+		83564F7C1780C87700906CD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83564F7D1780C87700906CD6 /* sso-Info.plist */,
+				83564F7E1780C87700906CD6 /* InfoPlist.strings */,
+				836273071799255C00CC736B /* Localizable.strings */,
+				83564F811780C87700906CD6 /* main.m */,
+				83564F831780C87700906CD6 /* sso-Prefix.pch */,
+				83564F871780C87700906CD6 /* Default.png */,
+				83564F891780C87700906CD6 /* Default@2x.png */,
+				83564F8B1780C87700906CD6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83564F711780C87700906CD6 /* sso */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83564F981780C87700906CD6 /* Build configuration list for PBXNativeTarget "sso" */;
+			buildPhases = (
+				83564F6E1780C87700906CD6 /* Sources */,
+				83564F6F1780C87700906CD6 /* Frameworks */,
+				83564F701780C87700906CD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sso;
+			productName = sso;
+			productReference = 83564F721780C87700906CD6 /* sso.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83564F6A1780C87700906CD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CubicleSSO;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = cubicle;
+			};
+			buildConfigurationList = 83564F6D1780C87700906CD6 /* Build configuration list for PBXProject "sso" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 83564F691780C87700906CD6;
+			productRefGroup = 83564F731780C87700906CD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83564F711780C87700906CD6 /* sso */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83564F701780C87700906CD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83564F801780C87700906CD6 /* InfoPlist.strings in Resources */,
+				83564F881780C87700906CD6 /* Default.png in Resources */,
+				83564F8A1780C87700906CD6 /* Default@2x.png in Resources */,
+				83564F8C1780C87700906CD6 /* Default-568h@2x.png in Resources */,
+				839F8129179332F000247C36 /* SSOViewController.xib in Resources */,
+				835766711797201A0008A8D3 /* SSOWebViewController.xib in Resources */,
+				836273091799255C00CC736B /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83564F6E1780C87700906CD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83564F821780C87700906CD6 /* main.m in Sources */,
+				83564F861780C87700906CD6 /* SSOAppDelegate.m in Sources */,
+				83AD54FD178B20FA00EF263F /* SSOParser.m in Sources */,
+				834D3B0D1794C6D10053026A /* SSOViewController.m in Sources */,
+				835766701797201A0008A8D3 /* SSOWebViewController.m in Sources */,
+				83516D9C179E716700CD9F2D /* SSOAPI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83564F7E1780C87700906CD6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83564F7F1780C87700906CD6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		836273071799255C00CC736B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				836273081799255C00CC736B /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83564F961780C87700906CD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83564F971780C87700906CD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83564F991780C87700906CD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: JEFF TURMAN (GDZ5P34X8B)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: JEFF TURMAN (GDZ5P34X8B)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sso/sso-Prefix.pch";
+				INFOPLIST_FILE = "sso/sso-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3553E3E8-424C-49BD-8A8D-ABC8ACFB3CDC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3553E3E8-424C-49BD-8A8D-ABC8ACFB3CDC";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		83564F9A1780C87700906CD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sso/sso-Prefix.pch";
+				INFOPLIST_FILE = "sso/sso-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83564F6D1780C87700906CD6 /* Build configuration list for PBXProject "sso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83564F961780C87700906CD6 /* Debug */,
+				83564F971780C87700906CD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83564F981780C87700906CD6 /* Build configuration list for PBXNativeTarget "sso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83564F991780C87700906CD6 /* Debug */,
+				83564F9A1780C87700906CD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83564F6A1780C87700906CD6 /* Project object */;
+}

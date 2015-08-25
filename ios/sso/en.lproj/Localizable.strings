@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  sso
+
+  Created by JEFF TURMAN on 7/19/13.
+  Copyright (c) 2013 cubicle. All rights reserved.
+*/
+
+"app_name"="SSO Client";
+"sso_api_call_in_progress"="An API call is still in progress.  Try again in a few moments.";
+"sso_api_call_init_error"="An error occurred while initializing the API call to the server.  %@";
+"sso_api_no_login_title"="Not signed in";
+"sso_api_no_login_message"="This action requires an active login session but you are not signed in.  Would you like to sign in?";
+"sso_api_no_login_yes"="Yes";
+"sso_api_no_login_no"="No";
+"sso_api_server_error_message"="Server responded with the error:  %@ (%@)";
+"sso_api_malformed_json_error"="An exception was caught while processing the response from the server.  Probably malformed JSON.";
+"sso_api_read_error"="An error occurred while attempting to read the response from the server.  %@";
